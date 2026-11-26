@@ -2,20 +2,14 @@
 import hashlib, json, os, time, urllib.request
 
 ENDPOINT = "https://open-api.affiliate.shopee.com.br/graphql"
+CAMPOS = "itemId productName priceMin priceMax priceDiscountRate commissionRate imageUrl offerLink shopName sales ratingStar"
 
-QUERY = """query($keyword:String,$sortType:Int,$page:Int,$limit:Int){
-  productOfferV2(keyword:$keyword, sortType:$sortType, page:$page, limit:$limit){
-    nodes{ itemId productName priceMin priceMax priceDiscountRate commissionRate
-           imageUrl offerLink shopName sales ratingStar }
-  }
-}"""
-
-def _chamar(query, variaveis):
-    app_id = os.environ["SHOPEE_APP_ID"]; secret = os.environ["SHOPEE_SECRET"]
-    payload = json.dumps({"query": query, "variables": variaveis}, separators=(",", ":"))
+def _chamar(query):
+    app_id = os.environ["SHOPEE_APP_ID"].strip(); secret = os.environ["SHOPEE_SECRET"].strip()
+    payload = json.dumps({"query": query}, separators=(",", ":"), ensure_ascii=False)
     ts = str(int(time.time()))
-    assinatura = hashlib.sha256((app_id + ts + payload + secret).encode()).hexdigest()
-    req = urllib.request.Request(ENDPOINT, data=payload.encode(), method="POST", headers={
+    assinatura = hashlib.sha256((app_id + ts + payload + secret).encode("utf-8")).hexdigest()
+    req = urllib.request.Request(ENDPOINT, data=payload.encode("utf-8"), method="POST", headers={
         "Content-Type": "application/json",
         "Authorization": f"SHA256 Credential={app_id}, Timestamp={ts}, Signature={assinatura}",
     })
@@ -27,7 +21,8 @@ def _chamar(query, variaveis):
 
 def buscar(palavra, limite=30):
     """sortType 2 = mais vendidos."""
-    d = _chamar(QUERY, {"keyword": palavra, "sortType": 2, "page": 1, "limit": limite})
+    q = "{productOfferV2(keyword:%s,sortType:2,page:1,limit:%d){nodes{%s}}}" % (json.dumps(palavra, ensure_ascii=False), limite, CAMPOS)
+    d = _chamar(q)
     ofertas = []
     for n in d["productOfferV2"]["nodes"]:
         ofertas.append({
@@ -35,7 +30,7 @@ def buscar(palavra, limite=30):
             "id": f"shopee-{n['itemId']}",
             "titulo": n["productName"],
             "preco": float(n["priceMin"]),
-            "desconto": int(n.get("priceDiscountRate") or 0),
+            "desconto": int(float(n.get("priceDiscountRate") or 0)),
             "comissao": float(n.get("commissionRate") or 0),
             "imagem": n["imageUrl"],
             "link": n["offerLink"],
@@ -44,15 +39,11 @@ def buscar(palavra, limite=30):
         })
     return ofertas
 
-MUT_LINK = """mutation($url:String!,$sub:[String]){
-  generateShortLink(input:{originUrl:$url, subIds:$sub}){ shortLink }
-}"""
-
 def link_rastreado(url, canal):
     """Gera link curto com subId do canal (ex.: instagram), para medir de onde vêm as vendas."""
     try:
-        d = _chamar(MUT_LINK, {"url": url, "sub": [canal]})
-        return d["generateShortLink"]["shortLink"] or url
+        q = 'mutation{generateShortLink(input:{originUrl:%s,subIds:[%s]}){shortLink}}' % (json.dumps(url), json.dumps(canal))
+        return _chamar(q)["generateShortLink"]["shortLink"] or url
     except Exception as e:
         print("Aviso: link rastreado falhou", canal, e)
         return url
