@@ -1,0 +1,42 @@
+name: Motor de ofertas
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 08h (Brasília)
+    - cron: "0 15 * * *"   # 12h
+    - cron: "0 22 * * *"   # 19h (inclui o carrossel do Instagram)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    env:
+      SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+      SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CANAL: ${{ secrets.TELEGRAM_CANAL }}
+      TELEGRAM_MEU_CHAT: ${{ secrets.TELEGRAM_MEU_CHAT }}
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      PINTEREST_TOKEN: ${{ secrets.PINTEREST_TOKEN }}
+      PINTEREST_BOARD: ${{ secrets.PINTEREST_BOARD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pillow
+      - name: Buscar ofertas, gerar artes, Telegram e site
+        run: python motor/main.py
+      - name: Salvar (deixa as artes públicas)
+        run: |
+          git config user.name "motor-ofertas"
+          git config user.email "motor@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Ofertas atualizadas"
+          git push
+      - name: Instagram e Pinterest
+        run: |
+          sleep 20
+          python motor/social.py
+          git add data
+          git diff --cached --quiet || (git commit -m "Registro Instagram" && git push)
