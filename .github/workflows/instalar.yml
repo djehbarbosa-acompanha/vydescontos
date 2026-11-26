@@ -1,0 +1,21 @@
+name: Instalar Vydescontos
+on:
+  push:
+    paths: ["vydescontos_arquivos.zip"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  instalar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descompactar arquivos
+        run: |
+          unzip -o vydescontos_arquivos.zip
+          git rm -q vydescontos_arquivos.zip
+          git config user.name "motor-ofertas"
+          git config user.email "motor@users.noreply.github.com"
+          git add -A
+          git commit -m "Instala os arquivos do Vydescontos"
+          git push
