@@ -1,0 +1,92 @@
+{
+ "ofertas": [
+  {
+   "loja": "Shopee",
+   "id": "shopee-18866975811",
+   "titulo": "beauty of joseon revive eye serum ginseng + retinal 10ml [mini] / 30ml [original]",
+   "preco": 38.99,
+   "desconto": 80,
+   "comissao": 0.24,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134207-8259u-mrqkxrp0z85if5",
+   "link": "https://s.shopee.com.br/50awaUSxWN",
+   "vendas": 5589,
+   "nota": 5.0,
+   "links": {
+    "telegram": "https://s.shopee.com.br/4B1paxaWwl",
+    "whatsapp": "https://s.shopee.com.br/BVgpbppKZ",
+    "instagram": "https://s.shopee.com.br/9zzcXgEK7S",
+    "pinterest": "https://s.shopee.com.br/8fUExEJT6R",
+    "site": "https://s.shopee.com.br/5LDmz6a934"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-18866975811.jpg",
+   "link_vitrine": "https://s.shopee.com.br/5LDmz6a934"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-9511754133",
+   "titulo": "Creatina Max Titanium 300g Pura",
+   "preco": 35.7,
+   "desconto": 80,
+   "comissao": 0.1,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-22100-7b7tjvynfbivb7",
+   "link": "https://s.shopee.com.br/30psCoJ2fo",
+   "vendas": 10665,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/3LSibQiAhT",
+    "whatsapp": "https://s.shopee.com.br/W8XEDsxS4",
+    "instagram": "https://s.shopee.com.br/9KjvkSPnZ4",
+    "pinterest": "https://s.shopee.com.br/6VPkNFa6TB",
+    "site": "https://s.shopee.com.br/5qA3a1d7g0"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-9511754133.jpg",
+   "link_vitrine": "https://s.shopee.com.br/5qA3a1d7g0"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-58264038982",
+   "titulo": "Escova Facial Drenagem Linfática Massageador Anti Inchaço Lifting Skincare Rosto Pele Gua Sha Glow\r\n",
+   "preco": 10.0,
+   "desconto": 80,
+   "comissao": 0.07,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8257z-mqhxl7ssw0svcb",
+   "link": "https://s.shopee.com.br/4VefzZUrXK",
+   "vendas": 5985,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/8pnf9XRhaw",
+    "whatsapp": "https://s.shopee.com.br/AKcSwIPuT6",
+    "instagram": "https://s.shopee.com.br/7KyrMmboOw",
+    "pinterest": "https://s.shopee.com.br/8AXyMJYdiJ",
+    "site": "https://s.shopee.com.br/70M0yAd0pd"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-58264038982.jpg",
+   "link_vitrine": "https://s.shopee.com.br/70M0yAd0pd"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-9212570285",
+   "titulo": "Creatina Suplemento Monohidratada em Pó 100% Pura Importada - Soldiers Nutrition",
+   "preco": 25.9,
+   "desconto": 74,
+   "comissao": 0.18,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m9-mpwm1rqctatfc5",
+   "link": "https://s.shopee.com.br/1W14Q3OkiR",
+   "vendas": 25390,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/1gKUcN1Iqq",
+    "whatsapp": "https://s.shopee.com.br/AKcSwIUJGj",
+    "instagram": "https://s.shopee.com.br/60TTmKlDcw",
+    "pinterest": "https://s.shopee.com.br/9V3LwlXxn1",
+    "site": "https://s.shopee.com.br/6fjAZYiGiN"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-9212570285.jpg",
+   "link_vitrine": "https://s.shopee.com.br/6fjAZYiGiN"
+  }
+ ]
+}
