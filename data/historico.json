@@ -3,9 +3,101 @@
   "shopee-18866975811": "2026-11-26T21:34:24.073600+00:00",
   "shopee-9511754133": "2026-11-26T21:34:24.073600+00:00",
   "shopee-58264038982": "2026-11-26T21:34:24.073600+00:00",
-  "shopee-9212570285": "2026-11-26T21:34:24.073600+00:00"
+  "shopee-9212570285": "2026-11-26T21:34:24.073600+00:00",
+  "shopee-19899586753": "2026-11-26T22:45:16.159257+00:00",
+  "shopee-22792809253": "2026-11-26T22:45:16.159257+00:00",
+  "shopee-22093823144": "2026-11-26T22:45:16.159257+00:00",
+  "shopee-23694958937": "2026-11-26T22:45:16.159257+00:00"
  },
  "vitrine": [
+  {
+   "loja": "Shopee",
+   "id": "shopee-19899586753",
+   "titulo": "Fone de Ouvido Sem Fio Com Cancelamento De Ruído Bluetooth Pop-Up",
+   "preco": 42.89,
+   "desconto": 78,
+   "comissao": 0.14,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rffm-m4f5wo6pi7mjaa",
+   "link": "https://s.shopee.com.br/1LheIc4WK0",
+   "vendas": 6654,
+   "nota": 4.8,
+   "links": {
+    "telegram": "https://s.shopee.com.br/BVguTDQgU",
+    "whatsapp": "https://s.shopee.com.br/7AfRFKmMv3",
+    "instagram": "https://s.shopee.com.br/BVguTDMRD",
+    "pinterest": "https://s.shopee.com.br/9AQVd0fEgi",
+    "site": "https://s.shopee.com.br/8fUF25h0C2"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-19899586753.jpg",
+   "link_vitrine": "https://s.shopee.com.br/8fUF25h0C2"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-22792809253",
+   "titulo": "Fone de Ouvido Sem Fio  PRO5 airpods Com Cancelamento De Ruído Bluetooth Pop-Up para iOS e Android",
+   "preco": 42.98,
+   "desconto": 82,
+   "comissao": 0.03,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m712dqkqe0xc50",
+   "link": "https://s.shopee.com.br/8KrOdTds7W",
+   "vendas": 5552,
+   "nota": 4.7,
+   "links": {
+    "telegram": "https://s.shopee.com.br/9V3M1ciEHj",
+    "whatsapp": "https://s.shopee.com.br/3B9ITz6L98",
+    "instagram": "https://s.shopee.com.br/AUvtDSeYlY",
+    "pinterest": "https://s.shopee.com.br/2BGlI9A9B6",
+    "site": "https://s.shopee.com.br/30psHg6yV8"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-22792809253.jpg",
+   "link_vitrine": "https://s.shopee.com.br/30psHg6yV8"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-22093823144",
+   "titulo": "Fone de Ouvido Sem Fio Airpods PRO 3 Com Cancelamento De Ruído Bluetooth Pop-Up para iOS e Android",
+   "preco": 42.98,
+   "desconto": 75,
+   "comissao": 0.03,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd3v-m70zchxbcirf93",
+   "link": "https://s.shopee.com.br/8AXyRAeVST",
+   "vendas": 5321,
+   "nota": 4.7,
+   "links": {
+    "telegram": "https://s.shopee.com.br/1CGiAMS2E",
+    "whatsapp": "https://s.shopee.com.br/5LDn3y2UVr",
+    "instagram": "https://s.shopee.com.br/7KyrRduwiV",
+    "pinterest": "https://s.shopee.com.br/AAJ2oqk9zo",
+    "site": "https://s.shopee.com.br/5LDn3y2Ynx"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-22093823144.jpg",
+   "link_vitrine": "https://s.shopee.com.br/5LDn3y2Ynx"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-23694958937",
+   "titulo": "Fone De Ouvido Bluetooth Orelha Gatinho Infantil Led Sem Fio",
+   "preco": 27.5,
+   "desconto": 72,
+   "comissao": 0.06,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-820nh-mnq01ce18zr689",
+   "link": "https://s.shopee.com.br/2LaBUS0iII",
+   "vendas": 5270,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/8VAopmqR9E",
+    "whatsapp": "https://s.shopee.com.br/1BOE6JMkjc",
+    "instagram": "https://s.shopee.com.br/4qHWT38rYo",
+    "pinterest": "https://s.shopee.com.br/3Vm8sbDwGg",
+    "site": "https://s.shopee.com.br/2gD1t4H6xb"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-23694958937.jpg",
+   "link_vitrine": "https://s.shopee.com.br/2gD1t4H6xb"
+  },
   {
    "loja": "Shopee",
    "id": "shopee-18866975811",
