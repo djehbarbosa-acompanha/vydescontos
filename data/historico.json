@@ -7,9 +7,101 @@
   "shopee-19899586753": "2026-11-26T22:45:16.159257+00:00",
   "shopee-22792809253": "2026-11-26T22:45:16.159257+00:00",
   "shopee-22093823144": "2026-11-26T22:45:16.159257+00:00",
-  "shopee-23694958937": "2026-11-26T22:45:16.159257+00:00"
+  "shopee-23694958937": "2026-11-26T22:45:16.159257+00:00",
+  "shopee-23699524199": "2026-11-27T00:56:14.833218+00:00",
+  "shopee-27620799823": "2026-11-27T00:56:14.833218+00:00",
+  "shopee-46465538834": "2026-11-27T00:56:14.833218+00:00",
+  "shopee-58216363171": "2026-11-27T00:56:14.833218+00:00"
  },
  "vitrine": [
+  {
+   "loja": "Shopee",
+   "id": "shopee-23699524199",
+   "titulo": "Sérum Mix-01：Reduz poros e oleosidade, clareia manchas",
+   "preco": 32.88,
+   "desconto": 79,
+   "comissao": 0.07,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m1-mq2ga1jkrocgae",
+   "link": "https://s.shopee.com.br/5fqdbZn4gy",
+   "vendas": 3513,
+   "nota": 4.8,
+   "links": {
+    "telegram": "https://s.shopee.com.br/AKcTA9iZsU",
+    "whatsapp": "https://s.shopee.com.br/8KrOmTq3Qb",
+    "instagram": "https://s.shopee.com.br/4B1popAJaY",
+    "pinterest": "https://s.shopee.com.br/3LSipIDcos",
+    "site": "https://s.shopee.com.br/1LheRcL6LH"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-23699524199.jpg",
+   "link_vitrine": "https://s.shopee.com.br/1LheRcL6LH"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-27620799823",
+   "titulo": "Numbuzin No.9 NAD Bio Lifting Essence 2types 30ml/50ml",
+   "preco": 95.97,
+   "desconto": 71,
+   "comissao": 0.23,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134207-8259p-mr9kjx26bgu9b5",
+   "link": "https://s.shopee.com.br/5qA3nsmRM1",
+   "vendas": 2823,
+   "nota": 5.0,
+   "links": {
+    "telegram": "https://s.shopee.com.br/9V3MAcq0n9",
+    "whatsapp": "https://s.shopee.com.br/6fjAnQ0nXq",
+    "instagram": "https://s.shopee.com.br/8KrOmTyVbZ",
+    "pinterest": "https://s.shopee.com.br/9zzclXsADz",
+    "site": "https://s.shopee.com.br/1gKUqEOIiq"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-27620799823.jpg",
+   "link_vitrine": "https://s.shopee.com.br/1gKUqEOIiq"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-46465538834",
+   "titulo": "[B : LAB] Tamanho Da Amostra Matcha Cleanser/CICA Barrier Apple Cera Cream/Yuja Spot Serum",
+   "preco": 5.5,
+   "desconto": 79,
+   "comissao": 0.09,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134207-825a3-mrjmp9omb8xta9",
+   "link": "https://s.shopee.com.br/6fjAnPjGfK",
+   "vendas": 1385,
+   "nota": 5.0,
+   "links": {
+    "telegram": "https://s.shopee.com.br/8KrOmU2uO1",
+    "whatsapp": "https://s.shopee.com.br/Lp7FmXhvp",
+    "instagram": "https://s.shopee.com.br/5AuN0fFReS",
+    "pinterest": "https://s.shopee.com.br/1CGrAYyco",
+    "site": "https://s.shopee.com.br/3g5ZDuKfsi"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-46465538834.jpg",
+   "link_vitrine": "https://s.shopee.com.br/3g5ZDuKfsi"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-58216363171",
+   "titulo": "CR2032 3V com 1/2/3/4 Cartelas para Relógio, Controle e Eletrônicos",
+   "preco": 10.99,
+   "desconto": 78,
+   "comissao": 0.03,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-ms02am2o3vuu6a",
+   "link": "https://s.shopee.com.br/6fjAnPMrCf",
+   "vendas": 4120,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/5AuN0fJqRA",
+    "whatsapp": "https://s.shopee.com.br/70M1C2Crij",
+    "instagram": "https://s.shopee.com.br/70M1C2CnWb",
+    "pinterest": "https://s.shopee.com.br/6VPkb7J1zc",
+    "site": "https://s.shopee.com.br/Lp7FmgVW0"
+   },
+   "data": "2026-11-26",
+   "card": "docs/cards/shopee-58216363171.jpg",
+   "link_vitrine": "https://s.shopee.com.br/Lp7FmgVW0"
+  },
   {
    "loja": "Shopee",
    "id": "shopee-19899586753",
