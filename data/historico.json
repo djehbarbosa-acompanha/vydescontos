@@ -15,9 +15,101 @@
   "shopee-58204543063": "2026-11-27T11:48:05.837358+00:00",
   "shopee-21897981294": "2026-11-27T11:48:05.837358+00:00",
   "shopee-22895058213": "2026-11-27T11:48:05.837358+00:00",
-  "shopee-58214828023": "2026-11-27T11:48:05.837358+00:00"
+  "shopee-58214828023": "2026-11-27T11:48:05.837358+00:00",
+  "shopee-21997150349": "2026-11-27T15:56:54.252330+00:00",
+  "shopee-18498281829": "2026-11-27T15:56:54.252330+00:00",
+  "shopee-22794275506": "2026-11-27T15:56:54.252330+00:00",
+  "shopee-23793414141": "2026-11-27T15:56:54.252330+00:00"
  },
  "vitrine": [
+  {
+   "loja": "Shopee",
+   "id": "shopee-21997150349",
+   "titulo": "Kit 6 Forma de Silicone para Fritadeira Air Fryer com Alça Antiaderente Cozinha",
+   "preco": 11.99,
+   "desconto": 83,
+   "comissao": 0.03,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk35l9kuakg158",
+   "link": "https://s.shopee.com.br/4VehDHMDA0",
+   "vendas": 5469,
+   "nota": 4.6,
+   "links": {
+    "telegram": "https://s.shopee.com.br/5LDoCof6fZ",
+    "whatsapp": "https://s.shopee.com.br/3qP0Q3p9CX",
+    "instagram": "https://s.shopee.com.br/3VmA1RqYQA",
+    "pinterest": "https://s.shopee.com.br/8AXza1YeRt",
+    "site": "https://s.shopee.com.br/5LDoCojRCa"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-21997150349.jpg",
+   "link_vitrine": "https://s.shopee.com.br/5LDoCojRCa"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-18498281829",
+   "titulo": "Rastreador AirTag Smart Tag Localizador GPS para Mala-Automóveis-Pet-Criança Sem Limite de Distância",
+   "preco": 16.09,
+   "desconto": 82,
+   "comissao": 0.03,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mavc0e502q6145",
+   "link": "https://s.shopee.com.br/8fUGAwSU9i",
+   "vendas": 14012,
+   "nota": 4.7,
+   "links": {
+    "telegram": "https://s.shopee.com.br/2BGmQzzY47",
+    "whatsapp": "https://s.shopee.com.br/Lp8Fd6s7i",
+    "instagram": "https://s.shopee.com.br/8VApydbRDs",
+    "pinterest": "https://s.shopee.com.br/1qdw2O5d5p",
+    "site": "https://s.shopee.com.br/70M2BslY2v"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-18498281829.jpg",
+   "link_vitrine": "https://s.shopee.com.br/70M2BslY2v"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-22794275506",
+   "titulo": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
+   "preco": 16.98,
+   "desconto": 76,
+   "comissao": 0.05,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mvhiu678rkea1f",
+   "link": "https://s.shopee.com.br/50axoCKJ9B",
+   "vendas": 3746,
+   "nota": 4.7,
+   "links": {
+    "telegram": "https://s.shopee.com.br/9AQWlrddyG",
+    "whatsapp": "https://s.shopee.com.br/3qP0Q3y5NA",
+    "instagram": "https://s.shopee.com.br/6fjBnGrDUI",
+    "pinterest": "https://s.shopee.com.br/60TV02tkqM",
+    "site": "https://s.shopee.com.br/70M2BsqQf6"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-22794275506.jpg",
+   "link_vitrine": "https://s.shopee.com.br/70M2BsqQf6"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-23793414141",
+   "titulo": "Coleira Peitoral para cachorro pequenos e médios com guia para pet colete confortável",
+   "preco": 13.89,
+   "desconto": 74,
+   "comissao": 0.03,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m16zhf1ljn7yae",
+   "link": "https://s.shopee.com.br/8VApydT7Uj",
+   "vendas": 9711,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/2Vtcpc7Ypm",
+    "whatsapp": "https://s.shopee.com.br/BVi3KKhlr",
+    "instagram": "https://s.shopee.com.br/W8YRwJVML",
+    "pinterest": "https://s.shopee.com.br/3VmA1S7fik",
+    "site": "https://s.shopee.com.br/5AuO0W1KLA"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-23793414141.jpg",
+   "link_vitrine": "https://s.shopee.com.br/5AuO0W1KLA"
+  },
   {
    "loja": "Shopee",
    "id": "shopee-58204543063",
