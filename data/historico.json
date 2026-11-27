@@ -11,9 +11,101 @@
   "shopee-23699524199": "2026-11-27T00:56:14.833218+00:00",
   "shopee-27620799823": "2026-11-27T00:56:14.833218+00:00",
   "shopee-46465538834": "2026-11-27T00:56:14.833218+00:00",
-  "shopee-58216363171": "2026-11-27T00:56:14.833218+00:00"
+  "shopee-58216363171": "2026-11-27T00:56:14.833218+00:00",
+  "shopee-58204543063": "2026-11-27T11:48:05.837358+00:00",
+  "shopee-21897981294": "2026-11-27T11:48:05.837358+00:00",
+  "shopee-22895058213": "2026-11-27T11:48:05.837358+00:00",
+  "shopee-58214828023": "2026-11-27T11:48:05.837358+00:00"
  },
  "vitrine": [
+  {
+   "loja": "Shopee",
+   "id": "shopee-58204543063",
+   "titulo": "Combo 1,2 e 3 Pares Chinelo Feminino Casual Leve Antiderrapante Confortável",
+   "preco": 15.98,
+   "desconto": 82,
+   "comissao": 0.13,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztf-ml1zdh9onnr6dc",
+   "link": "https://s.shopee.com.br/AKcTsuwgKE",
+   "vendas": 3420,
+   "nota": 4.8,
+   "links": {
+    "telegram": "https://s.shopee.com.br/5fqeKLW2tq",
+    "whatsapp": "https://s.shopee.com.br/AKcTsvIgBr",
+    "instagram": "https://s.shopee.com.br/4LLGjtf6nT",
+    "pinterest": "https://s.shopee.com.br/8KrPVFQIGY",
+    "site": "https://s.shopee.com.br/1gKVYzpk3D"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-58204543063.jpg",
+   "link_vitrine": "https://s.shopee.com.br/1gKVYzpk3D"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-21897981294",
+   "titulo": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
+   "preco": 50.0,
+   "desconto": 83,
+   "comissao": 0.03,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7repr-m2v3wdwedwcb1f",
+   "link": "https://s.shopee.com.br/9fMn5ghcXi",
+   "vendas": 3757,
+   "nota": 4.8,
+   "links": {
+    "telegram": "https://s.shopee.com.br/9076ITWUDi",
+    "whatsapp": "https://s.shopee.com.br/qlOZT1ZnN",
+    "instagram": "https://s.shopee.com.br/6fjBWBjpyf",
+    "pinterest": "https://s.shopee.com.br/6L6L7Zkh5n",
+    "site": "https://s.shopee.com.br/9pgDI0XN0R"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-21897981294.jpg",
+   "link_vitrine": "https://s.shopee.com.br/9pgDI0XN0R"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-22895058213",
+   "titulo": "Kit Body Splash Feminino Arabe 60ml Shakan Coroa Amber Sereia Rubi Ametysta Presente Bolsa Ambarados",
+   "preco": 15.89,
+   "desconto": 77,
+   "comissao": 0.155,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m3-mpnvskafmdc004",
+   "link": "https://s.shopee.com.br/6AmuvFuweD",
+   "vendas": 2745,
+   "nota": 4.6,
+   "links": {
+    "telegram": "https://s.shopee.com.br/4VegwCwYQo",
+    "whatsapp": "https://s.shopee.com.br/30pt9S1mdu",
+    "instagram": "https://s.shopee.com.br/114olm9sYz",
+    "pinterest": "https://s.shopee.com.br/9pgDI0c75z",
+    "site": "https://s.shopee.com.br/60TUixqm9H"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-22895058213.jpg",
+   "link_vitrine": "https://s.shopee.com.br/60TUixqm9H"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-58214828023",
+   "titulo": "Sandália Babuche Feminina Leve Confortável Sola Antiderrapante Adulto e Infantil Tamanhos 21 ao 40",
+   "preco": 29.9,
+   "desconto": 77,
+   "comissao": 0.07,
+   "imagem": "https://cf.shopee.com.br/file/br-11134201-820m8-mr5c45nlkpol4c",
+   "link": "https://s.shopee.com.br/BVhmEZNxI",
+   "vendas": 3429,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/4qHXKozCiX",
+    "whatsapp": "https://s.shopee.com.br/1BOEy5DdzD",
+    "instagram": "https://s.shopee.com.br/20xLxcAKor",
+    "pinterest": "https://s.shopee.com.br/W8YArG74p",
+    "site": "https://s.shopee.com.br/6VPlJsxffy"
+   },
+   "data": "2026-11-27",
+   "card": "docs/cards/shopee-58214828023.jpg",
+   "link_vitrine": "https://s.shopee.com.br/6VPlJsxffy"
+  },
   {
    "loja": "Shopee",
    "id": "shopee-23699524199",
