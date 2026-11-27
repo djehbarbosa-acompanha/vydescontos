@@ -2,21 +2,31 @@
   "marca": "Vydescontos",
   "slogan": "Os melhores descontos da internet, todo dia",
   "palavras_chave": [
-    "kit cozinha",
+    "sérum facial",
+    "protetor solar",
+    "kit maquiagem",
+    "skincare",
+    "perfume feminino",
+    "escova secadora",
     "organizador",
-    "fone bluetooth",
+    "kit cozinha",
+    "utilidades casa",
     "luminária led",
     "garrafa térmica",
-    "maquiagem",
-    "skincare",
-    "tênis feminino",
-    "bolsa feminina",
-    "utilidades casa",
-    "brinquedo educativo",
+    "fone bluetooth",
     "acessórios celular",
     "air fryer acessórios",
-    "fitness",
-    "pet"
+    "bolsa feminina",
+    "pet",
+    "roupa infantil",
+    "brinquedo educativo",
+    "tênis infantil",
+    "tênis feminino",
+    "sandália feminina",
+    "vestido feminino",
+    "conjunto feminino",
+    "camiseta masculina",
+    "tênis masculino"
   ],
   "desconto_minimo": 20,
   "nota_minima": 4.6,
@@ -103,5 +113,23 @@
         "kit presente"
       ]
     }
-  ]
+  ],
+  "cta_comentario": "💬 Comenta LINK que eu te mando todos os links no direct!",
+  "palavras_gatilho": [
+    "link",
+    "links",
+    "quero",
+    "eu quero",
+    "onde compra",
+    "preço",
+    "preco",
+    "manda"
+  ],
+  "resposta_publica": [
+    "Te mandei no direct! 💌",
+    "Enviado no seu direct 😉",
+    "Corre lá no direct que tá lá! 🔥"
+  ],
+  "reels_hora_minima": 12,
+  "reels_itens": 4
 }
