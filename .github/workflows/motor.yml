@@ -2,9 +2,10 @@ name: Motor de ofertas
 on:
   schedule:
     - cron: "0 11 * * *"   # 08h (Brasília)
-    - cron: "0 15 * * *"   # 12h
-    - cron: "0 22 * * *"   # 19h (inclui o carrossel do Instagram)
+    - cron: "0 15 * * *"   # 12h (Reels)
+    - cron: "0 22 * * *"   # 19h (carrossel)
   workflow_dispatch: {}
+concurrency: { group: vydescontos, cancel-in-progress: false }
 permissions:
   contents: write
 jobs:
@@ -24,19 +25,23 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install pillow
+      - run: |
+          pip install pillow
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - name: Buscar ofertas, gerar artes, Telegram e site
-        run: python motor/main.py
+        run: |
+          python motor/main.py
+          python motor/reels.py
       - name: Salvar (deixa as artes públicas)
         run: |
           git config user.name "motor-ofertas"
           git config user.email "motor@users.noreply.github.com"
           git add data docs
           git diff --cached --quiet || git commit -m "Ofertas atualizadas"
-          git push
+          git pull --rebase -q && git push
       - name: Instagram e Pinterest
         run: |
           sleep 20
           python motor/social.py
           git add data
-          git diff --cached --quiet || (git commit -m "Registro Instagram" && git push)
+          git diff --cached --quiet || (git commit -m "Registro Instagram" && git pull --rebase -q && git push)
