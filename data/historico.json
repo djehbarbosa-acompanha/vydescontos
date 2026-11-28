@@ -27,9 +27,101 @@
   "shopee-20398528613": "2026-11-28T11:40:35.415265+00:00",
   "shopee-23598011105": "2026-11-28T11:40:35.415265+00:00",
   "shopee-58266513910": "2026-11-28T11:40:35.415265+00:00",
-  "shopee-19999249755": "2026-11-28T11:40:35.415265+00:00"
+  "shopee-19999249755": "2026-11-28T11:40:35.415265+00:00",
+  "shopee-58200515853": "2026-11-28T15:43:39.946457+00:00",
+  "shopee-22499056874": "2026-11-28T15:43:39.946457+00:00",
+  "shopee-22093160276": "2026-11-28T15:43:39.946457+00:00",
+  "shopee-23399193375": "2026-11-28T15:43:39.946457+00:00"
  },
  "vitrine": [
+  {
+   "loja": "Shopee",
+   "id": "shopee-58200515853",
+   "titulo": "Kit 5/10/15/30 Gorro Papai Noel Natal Feltro Festa Família Decoração Natalina Black Friday",
+   "preco": 15.9,
+   "desconto": 84,
+   "comissao": 0.15,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-821g6-mgx3845tiozw5f",
+   "link": "https://s.shopee.com.br/7KyuAT3gf4",
+   "vendas": 863,
+   "nota": 4.9,
+   "links": {
+    "telegram": "https://s.shopee.com.br/AUvvwI8t3l",
+    "whatsapp": "https://s.shopee.com.br/80EaxhIoiZ",
+    "instagram": "https://s.shopee.com.br/6L6MydTYrQ",
+    "pinterest": "https://s.shopee.com.br/6VPnAwSrHQ",
+    "site": "https://s.shopee.com.br/AUvvwIDdAK"
+   },
+   "data": "2026-11-28",
+   "card": "docs/cards/shopee-58200515853.jpg",
+   "link_vitrine": "https://s.shopee.com.br/AUvvwIDdAK"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-22499056874",
+   "titulo": "Smartwatch MINI 38MM PRO Com monitor De Frequência Cardíaca Do Computador São Paulo pronta entrega",
+   "preco": 52.99,
+   "desconto": 74,
+   "comissao": 0.13,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mg4sqr0e5nggcd",
+   "link": "https://s.shopee.com.br/8pnhxEFiGx",
+   "vendas": 1529,
+   "nota": 4.8,
+   "links": {
+    "telegram": "https://s.shopee.com.br/7fbkZ5SswG",
+    "whatsapp": "https://s.shopee.com.br/60TWa1ZEK6",
+    "instagram": "https://s.shopee.com.br/9pgF94KZHp",
+    "pinterest": "https://s.shopee.com.br/gS0EDtSt8",
+    "site": "https://s.shopee.com.br/70M3lrVUZR"
+   },
+   "data": "2026-11-28",
+   "card": "docs/cards/shopee-22499056874.jpg",
+   "link_vitrine": "https://s.shopee.com.br/70M3lrVUZR"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-22093160276",
+   "titulo": "2026 Nova Série 8 Relógio T800 Ultra Smart Watch Esportivo Sem Fio À Prova D'água T800 Ultra2 MAX",
+   "preco": 43.99,
+   "desconto": 72,
+   "comissao": 0.16,
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdym-lxrzfhio6fhl9d",
+   "link": "https://s.shopee.com.br/7VIKMmKmyZ",
+   "vendas": 1787,
+   "nota": 4.7,
+   "links": {
+    "telegram": "https://s.shopee.com.br/4fy8zZeEmI",
+    "whatsapp": "https://s.shopee.com.br/5fqgBPey2i",
+    "instagram": "https://s.shopee.com.br/4VeinGjLAy",
+    "pinterest": "https://s.shopee.com.br/40iSCLlJR4",
+    "site": "https://s.shopee.com.br/3LSlP7nqn8"
+   },
+   "data": "2026-11-28",
+   "card": "docs/cards/shopee-22093160276.jpg",
+   "link_vitrine": "https://s.shopee.com.br/3LSlP7nqn8"
+  },
+  {
+   "loja": "Shopee",
+   "id": "shopee-23399193375",
+   "titulo": "2026 T800 Ultra 3 MAX Mais Recente Smartwatch Relógio Inteligente NFC Série 10 2.19Polegadas Sem Fio",
+   "preco": 39.8,
+   "desconto": 73,
+   "comissao": 0.11,
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhq4f2lhz40397",
+   "link": "https://s.shopee.com.br/5LDpmnT2N4",
+   "vendas": 2214,
+   "nota": 4.7,
+   "links": {
+    "telegram": "https://s.shopee.com.br/4LLIaxjYvl",
+    "whatsapp": "https://s.shopee.com.br/7fbkZ5bGvk",
+    "instagram": "https://s.shopee.com.br/7VIKMmbuGl",
+    "pinterest": "https://s.shopee.com.br/2LaEDHvZlE",
+    "site": "https://s.shopee.com.br/20xNofwqRC"
+   },
+   "data": "2026-11-28",
+   "card": "docs/cards/shopee-23399193375.jpg",
+   "link_vitrine": "https://s.shopee.com.br/20xNofwqRC"
+  },
   {
    "loja": "Shopee",
    "id": "shopee-20398528613",
