@@ -36,6 +36,7 @@ def buscar(palavra, limite=30):
             "link": n["offerLink"],
             "vendas": int(n.get("sales") or 0),
             "nota": float(n.get("ratingStar") or 0),
+            "shop": n.get("shopName") or "",
         })
     return ofertas
 
