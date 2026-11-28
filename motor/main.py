@@ -3,7 +3,7 @@ Instagram e Pinterest são publicados depois, por social.py, quando as artes já
 import json, os, random, sys
 from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(__file__))
-import shopee, mercadolivre, telegram, vitrine, cards
+import shopee, mercadolivre, telegram, vitrine, cards, filtro
 
 BRT = timezone(timedelta(hours=-3))
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -36,6 +36,7 @@ candidatas += mercadolivre.carregar()
 # 2. Filtro e pontuação (desconto, comissão e popularidade)
 boas = [o for o in candidatas if o["id"] not in recentes and (
     o["loja"] != "Shopee" or (o["desconto"] >= cfg["desconto_minimo"] and o["nota"] >= cfg["nota_minima"] and o["vendas"] >= cfg["vendas_minimas"]))]
+boas = filtro.filtrar(boas, cfg.get("bloqueio_replicas"))
 vistas = set(); unicas = []
 for o in boas:
     if o["id"] not in vistas:
